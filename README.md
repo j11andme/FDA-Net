@@ -13,5 +13,15 @@ In real-world underwater environments, affected by complex light absorption and 
 We tested our two-stage detector (Faster R-CNN) codebase with `PyTorch 1.10.0 + CUDA 11.3 + MMDetection 2.25.1 + MMCV 1.6.0`; one-stage detector (YOLO11s) codebase with `Python 3.10 + Ultralytics 8.3.229`.
 
 ## Setup
+---
+### Datasets 
+The S-UODAC2020 dataset can be downloaded from [数据集](https://github.com/mousecpn/DMC-Domain-Generalization-for-Underwater-Object-Detection "数据集下载")
+
+### Training
+
+### Evaluation
+
+---
 
 ## Acknowledgements
+Ou codes are based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [Yolo](https://github.com/ultralytics/ultralytics). We also appreciate [DMC](https://github.com/mousecpn/DMC-Domain-Generalization-for-Underwater-Object-Detection) for providing their processed datasets.
