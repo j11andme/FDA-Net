@@ -18,9 +18,25 @@ We tested our two-stage detector (Faster R-CNN) codebase with `PyTorch 1.10.0 + 
 The S-UODAC2020 dataset can be downloaded from [数据集](https://github.com/mousecpn/DMC-Domain-Generalization-for-Underwater-Object-Detection "数据集下载")
 
 ### Training
-
+#### 1.Faster-rcnn
+```
+python tools/train.py --config configs/fda-net.py --work-dir work_dirs/FDA-Net/
+```
+#### 2.Yolo
+```
+cd yolo/ultralytics-main
+python mytrain.py
+```
 ### Evaluation
-
+#### 1.Faster-rcnn
+```
+python tools/test.py --config configs/fda-net.py --checkpoint configs/FDA-Net.pth
+```
+#### 2.Yolo
+```
+cd yolo/ultralytics-main
+python mytest.py
+```
 ---
 
 ## Acknowledgements
