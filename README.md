@@ -10,7 +10,7 @@ In real-world underwater environments, affected by complex light absorption and 
 </p>
 
 ## Environment
-
+We tested our two-stage detector (Faster R-CNN) codebase with `PyTorch 1.10.0 + CUDA 11.3 + MMDetection 2.25.1 + MMCV 1.6.0`; one-stage detector (YOLO11s) codebase with `Python 3.10 + Ultralytics 8.3.229`.
 
 ## Setup
 
