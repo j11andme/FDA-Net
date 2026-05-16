@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# 自定义忽略的深度学习权重文件
+*.pth
+*.pt
+
 # C extensions
 *.so
 
